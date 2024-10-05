@@ -59,6 +59,8 @@ Functional Simulation:
 */Program  for  4-Bit Up-Down Counter
 
 	Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
+![Screenshot 2024-10-05 092825](https://github.com/user-attachments/assets/121a11f3-28a9-4c34-8b12-447fb68c79fd)
+
 
 ## Creating Test bench:
 
@@ -80,6 +82,8 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
+![Screenshot 2024-10-05 092851](https://github.com/user-attachments/assets/cf5036b4-c420-4295-9089-e21c3b05975a)
+
 
 ## Fig 4: cds.lib file Creation
 
@@ -88,6 +92,8 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
+![Screenshot 2024-10-05 092903](https://github.com/user-attachments/assets/238053b8-e429-4cc6-a364-e1ba7eb52c2b)
+
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -98,10 +104,14 @@ Click the cds.lib file and save the file by clicking on Save option
 	Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+![Screenshot 2024-10-05 092916](https://github.com/user-attachments/assets/645ddb89-555a-4246-883a-ed692ac64a78)
+
 
 ## Fig 6: Nclaunch Window
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
+![image](https://github.com/user-attachments/assets/17f9674a-d8a6-4e01-9246-fbd0d82f3f01)
+
 
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
 
@@ -131,6 +141,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located.
 It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
+![Screenshot 2024-10-05 092934](https://github.com/user-attachments/assets/0d74b6fd-a09c-47c6-9dac-dfefff2557f2)
+
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
 
@@ -153,6 +165,8 @@ It contains statements that map logical library names to their physical director
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
 ## Fig 8: Elaboration Launch Option
+![image](https://github.com/user-attachments/assets/4dc9e980-69bf-49df-82c5-304c4e9aeccb)
+
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
@@ -165,8 +179,12 @@ It contains statements that map logical library names to their physical director
 	Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
+![image](https://github.com/user-attachments/assets/e260d403-fa64-4552-8142-2a3ea10de8b7)
+
 
 ## Fig 10: Simulation Waveform Window
+![image](https://github.com/user-attachments/assets/63ea5ed2-1823-419a-8f24-9ba777de9c1d)
 
-## Fig 11: Simulation Waveform Window
+
+
 
